@@ -11,5 +11,5 @@ export interface Book {
 export interface ReadingListItem extends Omit<Book, 'id'> {
   bookId: string;
   finished?: boolean;
-  finishedDate?: string;
+  finishedDate?: string;  
 }
